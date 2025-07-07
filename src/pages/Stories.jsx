@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../components/reuseable/Button';
 import storiesHeader from "../assets/stories-header.png";
-import Storiessingle from "../assets/Stories-single.png";
+// import Storiessingle from "../assets/Stories-single.png";
 import { FaApple, FaGooglePlay } from "react-icons/fa";
 import button from '../components/reuseable/Button';
 
@@ -27,7 +27,7 @@ const Stories = () => {
 
       <section className="flex items-center p-15">
         <div className="w-[900px]">
-          <img src={Storiessingle} alt="" />
+          <img src={storiesHeader} alt="" />
         </div>
         <div className="pr-[150px] pl-[40px]">
           <h1 className="font-bold text-[33px] text-left text-[#122231] mb-7">
