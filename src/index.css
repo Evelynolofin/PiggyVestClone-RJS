@@ -6,7 +6,7 @@
 }
 
 :root {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif; 
   line-height: 1.5;
   font-weight: 400;
 
@@ -19,4 +19,14 @@
 body {
   margin: 0;
   background-color: #F2F7F8;
+}
+
+a{
+  color:#3D4F60;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+}
+
+a:hover{
+  color: rgb(17, 71, 207);
 }
