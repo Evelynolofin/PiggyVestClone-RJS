@@ -8,7 +8,7 @@ import button from '../components/reuseable/Button';
 const Stories = () => {
   return (
     <>
-      <div className="flex justify-between mt-30 mb-50">
+      <div className="flex justify-between mt-30 mb-50 max-w-[1280px] p-15">
         <div className="text-left">
           <h1 className="font-bold text-[48px] text-[#122231] pr-[300px] mb-5">
             Loved by our Customers
@@ -25,15 +25,15 @@ const Stories = () => {
         </div>
       </div>
 
-      <section className='flex items-center'>
-        <div className='w-[900px]'>
+      <section className="flex items-center p-15">
+        <div className="w-[900px]">
           <img src={Storiessingle} alt="" />
         </div>
         <div className="pr-[150px] pl-[40px]">
           <h1 className="font-bold text-[33px] text-left text-[#122231] mb-7">
             Join 5+ million people who save and invest with us
           </h1>
-          <div className='flex gap-4'>
+          <div className="flex gap-4">
             <Button
               title="Get on iphone"
               iconTitle={<FaApple />}
